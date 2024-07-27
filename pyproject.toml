@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "recipe-librosa"
+version = "0.1.0"
+description = ""
+authors = ["ryu <43063676+kojipy@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+librosa = "^0.10.2.post1"
+matplotlib = "^3.9.1"
+ipython = "^8.26.0"
+jupyter = "^1.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
